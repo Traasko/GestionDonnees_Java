@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 	public class bddconnexion {
 		public static void main(String[] args) {
-			String url="jdbc:mysql://localhost/project?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+			String url="jdbc:mysql://localhost/gestion_donnee?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 			String user="root";
 			String password="";
 			
