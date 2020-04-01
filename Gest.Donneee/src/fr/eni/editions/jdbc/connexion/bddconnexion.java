@@ -6,11 +6,11 @@ import java.sql.SQLException;
 
 	public class bddconnexion {
 		public static void main(String[] args) {
+			try {
 			String url="jdbc:mysql://localhost/gestion_donnee?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 			String user="root";
 			String password="";
 			
-		try {
 			Connection cnx = DriverManager.getConnection(url, user, password);
 			System.out.println("Etat de la connexion :");
 			System.out.println(cnx.isClosed()?"fermée":"ouverte");

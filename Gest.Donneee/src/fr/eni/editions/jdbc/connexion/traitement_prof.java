@@ -4,6 +4,7 @@ public class traitement_prof {
 	
 	public static void main(String[] args) {
 		class_etudiants etudiants = new class_etudiants("Yalap","Thomas","Non","Aucun","Externe","Aucun");
+		
 		System.out.println(etudiants.getNom());
 		System.out.println(etudiants.getPrenom());
 		System.out.println(etudiants.getCantine());
