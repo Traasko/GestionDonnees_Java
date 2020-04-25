@@ -61,7 +61,7 @@ public class ModifierUtilisateur {
 	 */
 	protected void createContents() {
 		shlModifier = new Shell();
-		shlModifier.setSize(496, 227);
+		shlModifier.setSize(469, 223);
 		shlModifier.setText("Modifier");
 		
 		Label lblNomDeLa = new Label(shlModifier, SWT.NONE);
@@ -84,37 +84,37 @@ public class ModifierUtilisateur {
 		lblCantine.setText("Cantine");
 		
 		Label lblJours = new Label(shlModifier, SWT.NONE);
-		lblJours.setBounds(295, 53, 55, 15);
+		lblJours.setBounds(278, 53, 55, 15);
 		lblJours.setText("Jours");
 		
 		Label lblPension = new Label(shlModifier, SWT.NONE);
-		lblPension.setBounds(295, 86, 55, 15);
+		lblPension.setBounds(278, 86, 55, 15);
 		lblPension.setText("Pension");
 		
 		Label lblRegime = new Label(shlModifier, SWT.NONE);
-		lblRegime.setBounds(295, 120, 55, 15);
+		lblRegime.setBounds(278, 120, 55, 15);
 		lblRegime.setText("Regime");
 		
 		nomm = new Text(shlModifier, SWT.BORDER);
-		nomm.setBounds(121, 50, 76, 21);
+		nomm.setBounds(109, 50, 76, 21);
 		
 		prenomm = new Text(shlModifier, SWT.BORDER);
-		prenomm.setBounds(121, 83, 76, 21);
+		prenomm.setBounds(109, 83, 76, 21);
 		
 		cantinem = new Text(shlModifier, SWT.BORDER);
-		cantinem.setBounds(121, 117, 76, 21);
+		cantinem.setBounds(109, 117, 76, 21);
 		
 		joursm = new Text(shlModifier, SWT.BORDER);
-		joursm.setBounds(356, 50, 76, 21);
+		joursm.setBounds(351, 50, 76, 21);
 		
 		pensionm = new Text(shlModifier, SWT.BORDER);
-		pensionm.setBounds(356, 83, 76, 21);
+		pensionm.setBounds(351, 83, 76, 21);
 		
 		regimem = new Text(shlModifier, SWT.BORDER);
-		regimem.setBounds(356, 117, 76, 21);
+		regimem.setBounds(351, 117, 76, 21);
 		
 		Button btnModifier = new Button(shlModifier, SWT.NONE);
-		btnModifier.setBounds(219, 151, 75, 25);
+		btnModifier.setBounds(196, 149, 75, 25);
 		btnModifier.setText("Modifier");
 		btnModifier.addSelectionListener(new SelectionListener() {
             public void widgetSelected(SelectionEvent arg0) {
