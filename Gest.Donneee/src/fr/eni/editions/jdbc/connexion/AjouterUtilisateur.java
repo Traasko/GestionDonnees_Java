@@ -135,7 +135,7 @@ public class AjouterUtilisateur {
 	    try {
 	    	Connection connection = DriverManager.getConnection(jdbcURL, dbUsername, dbPassword);
 	    	
-	    	String sql = "INSERT INTO etudiants (nom, prenom, cantine, jours, pension, regime)"
+	    	String sql = "INSERT INTO utilisateus (nom, prenom, cantine, jours, pension, regime)"
 	    			+" VALUES (?, ?, ?, ?, ?, ?)";
 	    	
 	    	PreparedStatement statement = connection.prepareStatement(sql);

@@ -84,7 +84,7 @@ public class SupprimerUtilisateur {
 	    try {
 	    	Connection connection = DriverManager.getConnection(jdbcURL, dbUsername, dbPassword);
 	    	
-	    	String sql = "DELETE FROM etudiants WHERE id=?";
+	    	String sql = "DELETE FROM utilisateurs WHERE id=?";
 	    	PreparedStatement statement = connection.prepareStatement(sql);
 	    	statement.setString(1, textid.getText());
 	    	

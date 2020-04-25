@@ -134,7 +134,7 @@ public class ModifierUtilisateur {
 		try {
 	    	Connection connection = DriverManager.getConnection(jdbcURL, dbUsername, dbPassword);
 	    	
-	    	String sql = "UPDATE etudiants set nom=?, prenom=?, cantine=?, jours=?, pension=?, regime=? WHERE nom=? ";
+	    	String sql = "UPDATE utilisateurs set nom=?, prenom=?, cantine=?, jours=?, pension=?, regime=? WHERE nom=? ";
 	    	PreparedStatement statement = connection.prepareStatement(sql);
 	    	statement.setString(1, nomm.getText());
 	    	statement.setString(2, prenomm.getText());
