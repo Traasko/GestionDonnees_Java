@@ -79,9 +79,9 @@ public class ModifierUtilisateur {
 		lblPrenom.setBounds(20, 86, 55, 15);
 		lblPrenom.setText("Prenom");
 		
-		Label lblAge = new Label(shlModifier, SWT.NONE);
-		lblAge.setBounds(20, 120, 55, 15);
-		lblAge.setText("Cantine");
+		Label lblCantine = new Label(shlModifier, SWT.NONE);
+		lblCantine.setBounds(20, 120, 55, 15);
+		lblCantine.setText("Cantine");
 		
 		Label lblJours = new Label(shlModifier, SWT.NONE);
 		lblJours.setBounds(295, 53, 55, 15);
@@ -99,19 +99,19 @@ public class ModifierUtilisateur {
 		nomm.setBounds(121, 50, 76, 21);
 		
 		prenomm = new Text(shlModifier, SWT.BORDER);
-		prenomm.setBounds(353, 117, 76, 21);
+		prenomm.setBounds(121, 83, 76, 21);
 		
 		cantinem = new Text(shlModifier, SWT.BORDER);
 		cantinem.setBounds(121, 117, 76, 21);
 		
 		joursm = new Text(shlModifier, SWT.BORDER);
-		joursm.setBounds(121, 83, 76, 21);
+		joursm.setBounds(356, 50, 76, 21);
 		
 		pensionm = new Text(shlModifier, SWT.BORDER);
 		pensionm.setBounds(356, 83, 76, 21);
 		
 		regimem = new Text(shlModifier, SWT.BORDER);
-		regimem.setBounds(353, 50, 76, 21);
+		regimem.setBounds(356, 117, 76, 21);
 		
 		Button btnModifier = new Button(shlModifier, SWT.NONE);
 		btnModifier.setBounds(219, 151, 75, 25);

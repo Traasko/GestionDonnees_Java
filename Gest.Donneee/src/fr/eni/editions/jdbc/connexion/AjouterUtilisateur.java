@@ -67,8 +67,8 @@ public class AjouterUtilisateur {
 	 */
 	protected void createContents() {
 		shlAjouter = new Shell();
-		shlAjouter.setSize(391, 206);
-		shlAjouter.setText("Ajouter");
+		shlAjouter.setSize(409, 202);
+		shlAjouter.setText("Ajouter Etudiant");
 		
 		Label lblNom = new Label(shlAjouter, SWT.NONE);
 		lblNom.setBounds(10, 10, 55, 15);
@@ -113,7 +113,7 @@ public class AjouterUtilisateur {
 		textregime.setBounds(282, 83, 76, 21);
 		
 		btnAjouter = new Button(shlAjouter, SWT.NONE);
-		btnAjouter.setBounds(145, 132, 75, 25);
+		btnAjouter.setBounds(145, 128, 75, 25);
 		btnAjouter.setText("Ajouter");
 		btnAjouter.addSelectionListener(new SelectionListener() {
             public void widgetSelected(SelectionEvent arg0) {
