@@ -45,7 +45,7 @@ public class Accueil {
 	 */
 	protected void createContents() {
 		shlAccueil = new Shell();
-		shlAccueil.setSize(199, 191);
+		shlAccueil.setSize(380, 152);
 		shlAccueil.setText("Accueil");
 		
 		Button btnAjouterUnUtilisateur = new Button(shlAccueil, SWT.NONE);
@@ -68,7 +68,7 @@ public class Accueil {
           });
 		
 		Button btnModifierUnUtilisateur = new Button(shlAccueil, SWT.NONE);
-		btnModifierUnUtilisateur.setBounds(29, 63, 138, 25);
+		btnModifierUnUtilisateur.setBounds(188, 22, 138, 25);
 		btnModifierUnUtilisateur.setText("Modifier un utilisateur");
 		btnModifierUnUtilisateur.addSelectionListener(new SelectionListener() {
             public void widgetSelected(SelectionEvent arg0) {
@@ -87,7 +87,7 @@ public class Accueil {
           });
 		
 		Button btnSupprimerUnUtilisateur = new Button(shlAccueil, SWT.NONE);
-		btnSupprimerUnUtilisateur.setBounds(29, 104, 138, 25);
+		btnSupprimerUnUtilisateur.setBounds(97, 69, 138, 25);
 		btnSupprimerUnUtilisateur.setText("Supprimer un utilisateur");
 		btnSupprimerUnUtilisateur.addSelectionListener(new SelectionListener() {
             public void widgetSelected(SelectionEvent arg0) {
